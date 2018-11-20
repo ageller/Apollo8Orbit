@@ -1,0 +1,49 @@
+#from https://www.hq.nasa.gov/alsj/a410/A08_MissionReport.pdf (and here https://history.nasa.gov/afj/ap08fj/pdf/a08-missionreport.pdf)
+#page 50, Table 5-II : Trajectory Parameters
+#see also image on page 14
+#see also https://history.nasa.gov/alsj/a410/A08_PressKit.pdf page 21
+#see also https://history.nasa.gov/SP-4029.pdf page 55, also has orbital period around Earth (I think)
+#most of this was copy+paste, with some cleanup.  But that didn't get all columns.  I only added the extra columns to Lunar Orbit , since that's all we need for the show
+#############
+Event,Ref.body,time,latitude(deg),longitude(deg),altitude(nmi),velocity(ft/sec),flight-path_angle(deg),heading_angle(degEofN)
+1,2,3,4,5,6,7,8,9
+#############
+#Launch Phase
+#############
+S-IC center engine cutoff, Earth, 0:02:05.9, 28.72N, 80.19W, 22.4
+S-IC outboard engine cutoff, Earth, 0:02:33.8, 28.85N, 79.73W, 35.5
+S-II engine cutoff, Earth, 0:08:44.0, 31.72N, 65.39W, 103.4
+S-IVB engine cutoff, Earth, 0:11:25.0, 32.63N, 54.06W, 103.3
+#############
+#Parking Orbit 
+#############
+Parking orbit insertion, Earth, 0:11:35.0, 32.65N, 53.20W, 103.3
+S-IVB restart preparation, Earth, 2:40:59.5, 11.67S, 162.41E, 105.3
+#############
+#Translunar Injection 
+#############
+S-IVB ignition, Earth, 2:50:37.1, 9.25N, 166.55W, 106.4
+S-IVB cutoff, Earth, 2:55:55.5, 21.12N, 144.79W, 179.3
+Translunar injection, Earth, 2:56:05.5, 21.48N, 143.02W, 187.1
+Spacecraft/S-IVB separation, Earth, 3:20:59, 25.86N 66.23W, 3797.8 
+#############
+#Trans lunar Midcourse Corrections
+#############
+First midcourse correction Ignition, Earth, 10:59:59.5, 1.70S, 123.74W, 52768.4
+First midcourse correction Cutoff, Earth, 11:00:01.9, 1.71S, 123.75W, 52771.7
+Second midcourse correction Ignition, Moon, 60:59:55, 14.09N, 44.96W, 21064.5
+Second midcourse correction Cutoff, Moon, 61:00:07.8, 14.09N, 44.97W, 21059.2 
+#############
+#Lunar Orbit 
+#############
+Lunar orbit insertion Ignition, Moon, 69:08:20.4, 7.46S, 163.98W, 76.6, 8391, -6.43, -123.79
+Lunar orbit insertion Cutoff, Moon, 69:12:27.3, 9.89S, 179.56E, 62.0, 5458, -0.79, -117.13
+Lunar orbit circularization Ignition, Moon, 73:35:07, 11.61S, 160.29E, 59.3, 5479, -0.03, -110.18
+Lunar orbit circularization Cutoff, Moon, 73:35:16, 11.66S, 159.79E, 60.7, 5345, -0.02, -110.18
+#############
+#Trans earth 
+#############
+Trans earth injection Ignition, Moon, 89:19:16.6, 9.27S, 174.78E, 60.2, 5342
+Trans earth injection Cutoff, Moon, 89:22:40.3, 11.l7S, 160.19E, 66.1, 8842
+Third midcourse correction Ignition, Earth, 103:59:54, 5.67S, 57.27W, 165561.5, 4299
+Third midcourse correction Cutoff, Earth, 104:00:08, 5.67S, 57.33W, 167552.0, 4298 
