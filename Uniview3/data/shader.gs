@@ -48,12 +48,13 @@ void drawSprite(vec4 position, float radius, float rotation)
 void main()
 {
 
-	float size = 1.;
+	color = vec3(1);
+	float size = 10.;
 	if (gl_in[2].gl_Position.y == 0) color = vec3(1,1,0); //orbit
-	if (gl_in[2].gl_Position.y == 2) color = vec3(1,1,1); //cardinal points
+	if (gl_in[2].gl_Position.y == 2) color = vec3(0,1,1); //cardinal points
 	if (gl_in[2].gl_Position.y == 1) { //Earthrise
 		color = vec3(1,0,0);
-		size = 2.;
+		size *= 2;
 	}
 	
 	vec4 pos = vec4(gl_in[0].gl_Position.x, gl_in[0].gl_Position.y, gl_in[0].gl_Position.z, 1.);
